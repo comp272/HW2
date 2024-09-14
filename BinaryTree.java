@@ -30,9 +30,9 @@ import java.util.LinkedList;
  * the tree's order maintains that defined by a BST.
  *
  * Public methods:
- *  void deleteTree()      - deletes the tree
- *  Node insert(int data)  - inserts a new node into the tree containing value 'data'
- *  String preOrder()      - return the tree in 'preorder' traversal in a String object
+ *  void deleteTree()      - deletes the tree.
+ *  Node insert(int data)  - inserts a new node into the tree containing value 'data'.
+ *  String preOrder()      - return the tree in 'preorder' traversal in a String object.
  *
  * The following methods you will complete:
  *  void replaceValue(int k, int l) - if data value 'k' is in tree, replace with data
@@ -41,7 +41,7 @@ import java.util.LinkedList;
  *                           violate the binary tree definition.
  *  int findMin()          - returns the small data value stored in the tree.
  *  int nodesGT(int val)   - return the number of nodes in the tree that have a data value
- *                           greater than 'val'
+ *                           greater than 'val'.
  *  double average()       - return the average data value of all data values stored in
  *                           the tree.
  */
@@ -215,6 +215,7 @@ public class BinaryTree {
      * in very few lines of code.
      *
      */
+
     private void replaceValueHelper(Node node, int oldVal, int newVal) {
 
         // ADD YOUR CODE HERE -- USE DEPTH FIRST SEARCH OF
@@ -269,6 +270,7 @@ public class BinaryTree {
 
         return -1;
     }
+
 
     /*
      * public method average()
