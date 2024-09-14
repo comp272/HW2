@@ -56,7 +56,8 @@ public class BinaryTree {
         root = node;
     }
 
-    /* Class Node
+    /* 
+     * Class Node
      *
      * The node object definition for each node of the bin ary tree.
      */
