@@ -175,6 +175,7 @@ public class BinaryTree {
      * which does the actual work. The public wrapper method simply passes the root
      * of the tree to helper method.
      */
+    
     public String preOrder() {
         return preOrderHelper(root);
     }
