@@ -10,9 +10,10 @@
 public class Main {
 
   /*
-   * Function main() should be your  UNIT TESTING. Feel free to change this
-   * code to enhance your testing and / or add debugging code. It must pass
-   * at least the tests contained below.
+   * Function main() should be used for your UNIT TESTING. Feel free to change
+   * the code here in order to enhance your testing and / or add debugging code.
+   * However, your program must pass the existing tests provided in order to
+   * get 100%.
    */
   
   public static void main(String[] args) {
