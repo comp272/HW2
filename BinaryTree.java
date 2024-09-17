@@ -5,6 +5,8 @@
  * Homework # 2 (Programming Assignment). This Java class defines a few basic
  * manipulation operations of a binary trees.
  *
+ * ONLY MODIFY THIS FILE (NOT 'Main.Java')
+ *
  */
 
 import java.util.Queue;
